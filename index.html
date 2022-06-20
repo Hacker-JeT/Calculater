@@ -1,56 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Calculator</title>
-</head>
-
-<body>
-    <div class="container">
-        <h1>Calculator By JEET</h1>
-
-        <div class="calculator">
-            <input type="text" name="screen" id="screen">
-            <table>
-                <tr>
-                    <td><button>(</button></td>
-                    <td><button>)</button></td>
-                    <td><button>C</button></td>
-                    <td><button>%</button></td>
-                </tr>
-                <tr>
-                    <td><button>7</button></td>
-                    <td><button>8</button></td>
-                    <td><button>9</button></td>
-                    <td><button>X</button></td>
-                </tr>
-                <tr>
-                    <td><button>4</button></td>
-                    <td><button>5</button></td>
-                    <td><button>6</button></td>
-                    <td><button>-</button></td>
-                </tr>
-                <tr>
-                    <td><button>1</button></td>
-                    <td><button>2</button></td>
-                    <td><button>3</button></td>
-                    <td><button>+</button></td>
-                </tr>
-                <tr>
-                    <td><button>0</button></td>
-                    <td><button>.</button></td>
-                    <td><button>/</button></td>
-                    <td><button>=</button></td>
-                </tr>
-            </table>
-        </div>
-    </div>
-
-</body>
+	<title>Universal Calculater come Converter</title>
+	<link rel="stylesheet" href="style.css">
 <script src="index.js"></script>
+</head>
+<body>
+<center>
+	<h1 class="header">	
+		Universal Calculater come Converter	<sup>
+		</sup>
 
-</html>
+		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 calculator_div">
+		</div>
+		<button id="calculator_button" class="btn btn-primary" onclick="cal()">Calculator</button>
+		<br><br>
+
+		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 table_div">
+				</div>
+				<button id="table_button" class="btn btn-primary" onclick="multi()">Table</button>
+				<br><br>
+
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 converter_div">
+				</div>
+				<button id="converter_button" class="btn btn-primary" onclick="con()">Converter</button>
+				<br><br>
+    </center>
